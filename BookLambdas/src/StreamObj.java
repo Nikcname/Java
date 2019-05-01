@@ -45,7 +45,7 @@ public class StreamObj {
         System.out.println(after1.getName() + " " + before1.getName());
 
         names.stream()
-                .map(name -> name.split(" "))   //Creating stream of strings
+                .map(name -> name.split(" "))       //Creating stream of strings
                 .map(Person::new)                     //Using Varargs constructor
                 .collect(Collectors.toList());
 
