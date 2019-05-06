@@ -1,3 +1,7 @@
+package streams;
+
+import predicates.PredicateIntTest;
+
 import java.util.Arrays;
 import java.util.stream.Collectors;
 

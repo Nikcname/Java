@@ -1,3 +1,5 @@
+package predicates;
+
 @FunctionalInterface
 public interface PredicateIntTest {
 
