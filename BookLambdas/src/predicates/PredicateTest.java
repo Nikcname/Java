@@ -1,7 +1,6 @@
 package predicates;
 
-import predicates.ImplementPredicate;
-import streams.MyFilter;
+import trash.MyFilter;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
