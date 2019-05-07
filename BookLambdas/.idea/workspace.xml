@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a081aa-62cc-4d35-afe6-43fdbaf1fedf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/streams/BaxedStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/ReductionOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/streams/BaxedStream.java">
+        <entry file="file://$PROJECT_DIR$/src/streams/ReductionOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+            <state relative-caret-position="368">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/streams/StreamIterate.java" />
         <option value="$PROJECT_DIR$/src/streams/StreamGenerate.java" />
         <option value="$PROJECT_DIR$/src/streams/BaxedStream.java" />
+        <option value="$PROJECT_DIR$/src/streams/ReductionOperations.java" />
       </list>
     </option>
   </component>
@@ -85,6 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -122,7 +124,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BaxedStream">
+  <component name="RunManager" selected="Application.ReductionOperations">
     <configuration name="ArraysStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.ArraysStream" />
       <module name="BookLambdas" />
@@ -178,6 +179,19 @@
     </configuration>
     <configuration name="BaxedStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.BaxedStream" />
+      <module name="BookLambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReductionOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.ReductionOperations" />
       <module name="BookLambdas" />
       <extension name="coverage">
         <pattern>
@@ -215,26 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.StreamOf" />
-      <module name="BookLambdas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReductionOperations" />
         <item itemvalue="Application.BaxedStream" />
         <item itemvalue="Application.StreamGenerate" />
         <item itemvalue="Application.StreamIterate" />
         <item itemvalue="Application.ArraysStream" />
-        <item itemvalue="Application.StreamOf" />
       </list>
     </recent_temporary>
   </component>
@@ -284,14 +285,20 @@
       <option name="project" value="LOCAL" />
       <updated>1557137091542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Stream boxed">
+      <created>1557208112584</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557208112584</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27022654" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27427185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,12 +307,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2814302" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2814302" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298731" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298731" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3298731" />
@@ -393,7 +400,8 @@
     <MESSAGE value="Predicate Class" />
     <MESSAGE value="Function Class" />
     <MESSAGE value="Stream types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream types" />
+    <MESSAGE value="Stream boxed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream boxed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/io/File.java">
@@ -738,8 +746,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/streams/BaxedStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="60" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
+        <state relative-caret-position="241">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/streams/ReductionOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
