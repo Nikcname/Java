@@ -1,4 +1,4 @@
-package trash;
+package predicates;
 
 import predicates.PredicateIntTest;
 
